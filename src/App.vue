@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
+
+import Button from 'primevue/button'
 </script>
 
 <template>
@@ -16,7 +18,8 @@ import HelloWorld from './components/HelloWorld.vue'
       </nav>
     </div>
   </header>
-  <h1 class="text-4xl">This is Tailwind and Vue Project</h1>
+<Button label="Save" />
+  <span class="text-4xl">This is Tailwind and Vue Project</span>
 
   <RouterView />
 </template>
